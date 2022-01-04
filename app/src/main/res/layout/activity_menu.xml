@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activities.MenuActivity"
+    android:background="@drawable/background_title_resource">
+
+    <Button
+        android:id="@+id/menuActivityButtonMulai"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/green"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Mulai"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/menuActivityButtonSejarahBermain"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menuActivityButtonMulai"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/black"
+        android:text="Sejarah Bermain" />
+
+    <Button
+        android:id="@+id/menuActivityButtonPapanSkorGlobal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/menuActivityButtonSejarahBermain"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/black"
+        android:text="Papan Skor Global" />
+
+    <Button
+        android:id="@+id/menuActivityButtonKeluar"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:backgroundTint="@color/red"
+        android:textColor="@color/black"
+        android:text="Keluar" />
+
+</RelativeLayout>
